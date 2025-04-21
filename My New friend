@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My New Friend</title>
+  <style>
+    body {
+      background: #fceff9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #444;
+      text-align: center;
+      padding: 50px;
+    }
+    .card {
+      background: #fff;
+      padding: 30px;
+      margin: auto;
+      max-width: 600px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #e91e63;
+      margin-bottom: 10px;
+    }
+    audio {
+      margin-top: 20px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>For My New Friend</h1>
+    <p>
+      Kabhi kabhi zindagi mein koi aisa mil jaata hai,<br>
+      jo thodi si baat mein bhi muskurana sikha deta hai.<br>
+      Tujhse dosti naye chapter jaisi lagti hai — fresh, real aur effortless.<br>
+      Pata nahi aage kya hoga, lekin abhi ke liye…<br>
+      I'm really glad you're here.
+    </p>
+    <audio controls>
+      <source src="friendship_message.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
+</html>
